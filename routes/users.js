@@ -8,7 +8,7 @@ var fetchUsers = require("../models/fetchusers.model");
 
 const usersController = require('../controllers/users.controller');
 
-/* GET users listing. */
+
 router.get('/', usersController.index);
 router.post('/signup', 
   function(req, res) {
